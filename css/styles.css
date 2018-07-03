@@ -33,7 +33,7 @@ p {
   background-color: #ddd; }
 
 .input {
-  padding: 5px; }
+  padding: 1rem; }
 
 #resetFields {
   margin-right: 3rem; }
@@ -57,3 +57,17 @@ p {
 .interestOutput {
   margin-top: 3rem;
   font-size: 3rem; }
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 9px; } }
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 8px; } }
+
+@media screen and (max-width: 480px) {
+  .input {
+    min-width: 250px;
+    width: 75%;
+    margin: 1rem 0; } }
