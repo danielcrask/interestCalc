@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interest Calculator</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <h1 class="heading">Calculate Interest Gained or Spent</h1>
+    </nav>
+  </header>
+
+  <p class="bodyParagraph">
+    This calculator can be used for both investments in which you are currently being paid back on and personal loans or debts.
+    <br/>
+    To use this calculator just enter your total amount invested or borrowed, interest rate, and the amount being paid each month.
+  </p>
+
+  <div class="entryFields">
+    <div class="inputs">
+      <input type="Number" id="totalAmount" class="totalAmountInput input" placeholder="Total $">
+      <input type="number" id="interestRate" class="intRateInput input" placeholder="Interest %">
+      <input type="number" id="paymentAmount" class="paymentAmountInput input" placeholder="Monthly Payments">
+    </div>
+  </div>
+
+  <br/>
+
+  <button type="submit" onclick="resetFields()" id="resetFields" class="submit" value="Reset Fields">Reset Fields</button>
+  <button type="submit" onclick="calculateInterest()" id="calculateInterestBtn" class="submit" value="Calculate">Calculate</button>
+
+  <div class="interestOutput">
+
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

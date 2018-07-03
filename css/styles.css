@@ -1,0 +1,59 @@
+html {
+  background-color: #eee;
+  font-size: 10px; }
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-size: 4rem;
+  font-family: sans-serif; }
+
+p {
+  font-size: 2rem; }
+
+.header {
+  background-color: #222;
+  padding: 2rem;
+  margin-bottom: 3rem; }
+
+.heading {
+  color: #fff; }
+
+.bodyParagraph {
+  padding: 4rem; }
+
+.inputs {
+  border: 3px solid #222;
+  display: inline-block;
+  padding: 2rem;
+  background-color: #ddd; }
+
+.input {
+  padding: 5px; }
+
+#resetFields {
+  margin-right: 3rem; }
+  #resetFields:hover {
+    background-color: #ddd;
+    cursor: pointer; }
+
+#calculateInterestBtn {
+  margin-left: 3rem; }
+  #calculateInterestBtn:hover {
+    background-color: #ddd;
+    cursor: pointer; }
+
+.submit {
+  padding: 5px;
+  margin-top: 3rem;
+  background-color: #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 7px #000; }
+
+.interestOutput {
+  margin-top: 3rem;
+  font-size: 3rem; }
