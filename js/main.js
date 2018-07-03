@@ -13,8 +13,8 @@ function calculateInterest() {
 
       console.log(interest + ", " + totalAmt + ", " + payments + ", " + paidInterest);
     }
-    var interestPaid = paidInterest.toFixed(2);
-    $('.interestOutput').text("Your total interest paid will be $" + interestPaid);
+    paidInterest += totalAmt * interest;
+    $('.interestOutput').text("Your total interest paid will be $" + paidInterest.toFixed(2));
   }
 }
 
