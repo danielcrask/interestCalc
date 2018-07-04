@@ -74,6 +74,10 @@ p{
   font-size: 3rem;
 }
 
+.redBorder {
+  border: 2px solid red;
+}
+
 @media screen and (max-width: 1200px) {
   html{
     font-size: 9px;
